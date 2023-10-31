@@ -1,0 +1,61 @@
+.results__container {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.results__container .result__item {
+  padding-bottom: 10px;
+}
+
+.results__container .result__item:nth-child(2) {
+  margin: 0 20px;
+}
+
+.results__container .active {
+  border-bottom: 4px solid blue;
+}
+
+.buttons__container {
+  margin-top: 30px;
+}
+
+button {
+  margin-right: 50px;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: ease 1s all;
+}
+
+button:first-child {
+  background-color: green;
+}
+
+button:nth-child(2) {
+  background-color: red;
+  padding: 10px 30px;
+}
+
+button:last-child {
+  background-color: blue;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+}
